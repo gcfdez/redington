@@ -1,0 +1,63 @@
+<div class="card">
+  <h5 class="card-header">Redington Calculator</h5>
+  <div class="card-body">
+    <form [formGroup]="calculationForm" (keyup.enter)="onSubmit()">
+      <div class="row">
+        <div class="col">
+          <p class="form-group__label">Inputs</p>
+          <div class="form-group__input">
+            <input type="number" formControlName="probabilityA" name="probabilityA" id="probabilityA" placeholder="Probability A*" maxlength="10">
+            <div *ngIf="calculationForm.controls.probabilityA.errors && calculationForm.controls.probabilityA.dirty" class="error-text">
+              <ng-container *ngIf="calculationForm.controls.probabilityA.errors.required === true">Please enter a probability</ng-container>
+              <ng-container *ngIf="calculationForm.controls.probabilityA.errors.min">Please enter a valid probability</ng-container>
+              <ng-container *ngIf="calculationForm.controls.probabilityA.errors.max">Please enter a valid probability</ng-container>
+            </div>
+          </div>
+          <div class="form-group__input">
+            <input type="number" formControlName="probabilityB" name="probabilityB" id="probabilityB" placeholder="Probability B*" maxlength="10">
+            <div *ngIf="calculationForm.controls.probabilityB.errors && calculationForm.controls.probabilityB.dirty" class="error-text">
+              <ng-container *ngIf="calculationForm.controls.probabilityB.errors.required === true">Please enter a probability</ng-container>
+              <ng-container *ngIf="calculationForm.controls.probabilityB.errors.min">Please enter a valid probability</ng-container>
+              <ng-container *ngIf="calculationForm.controls.probabilityB.errors.max">Please enter a valid probability</ng-container>
+            </div>
+          </div>
+          <p class="form-group__label">Type of calculation</p>
+          <div class="form-group__input">
+            <select class="select" formControlName="typeOfCalculation" name="typeOfCalculation" id="typeOfCalculation">
+              <option disabled value="">Please select..&hellip;</option>
+              <option value="either">Either</option>
+              <option value="combinedWith">Combined With</option>
+            </select>
+            <div *ngIf="!calculationForm.controls.typeOfCalculation.valid && calculationForm.controls.typeOfCalculation.dirty" class="error-text">
+              Please select a type of calculation
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="result">
+            <h4><b>Result</b></h4>
+            <div class="output">
+              {{calculationResult}}
+            </div>
+          </div>
+          <button (click)="onSubmit()">Calculate</button>
+        </div>
+      </div>
+    </form>
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">NOTES</h4>
+      <p>
+        You should enter two valid probabilities(0 to 1 e.g. 0.5 is valid while 1.1 or -0.1 is invalid) and see a calculated result.
+      </p>
+      <hr>
+      <p>Types of calculations</p>
+      <ul>
+        <li><b>CombinedWith:</b> P(A)P(B) e.g. 0.5 * 0.5 = 0.25</li>
+        <li><b>Either:</b> P(A) + P(B) - P(A)P(B) e.g. 0.5 + 0.5 – 0.5 * 0.5 = 0.75</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card-footer text-muted">
+    Author: Guillermo Cobo Fernandez
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.form-group {
+  &__input
+
+{
+  margin-bottom: 50px;
+}
+
+}
+
+.error-text {
+  margin: 0.5rem 1rem 1rem 1rem;
+  color: red;
+}
+
+.col {
+  justify-content: center;
+  display: grid;
+  align-content: center;
+}
+
+.output {
+  border-style:solid;
+  margin-bottom: 46px;
+  text-align: center;
+  width: 120px;
+}
+
+button {
+  font-weight: 700;
+  background-color: #0000FF;
+  color: #FFFFFF;
+  border: 0;
+  text-align: center;
+}
+
+select{
+    width:100%;
+}

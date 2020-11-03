@@ -1,0 +1,15 @@
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.deps.json
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.dll
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.pdb
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.csprojAssemblyReference.cache
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.AssemblyInfoInputs.cache
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.AssemblyInfo.cs
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.dll
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.pdb
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.deps.json
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.dll
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\bin\Debug\netcoreapp3.1\Redington.Calculation.Domain.pdb
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.AssemblyInfoInputs.cache
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.AssemblyInfo.cs
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.dll
+C:\Users\guillermo.c.f\source\repos\Redington.Calculation\src\Redington.Calculation.Domain\obj\Debug\netcoreapp3.1\Redington.Calculation.Domain.pdb
